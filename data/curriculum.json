@@ -1,0 +1,678 @@
+{
+  "version": 1,
+  "domains": [
+    "structural_engineering",
+    "game_development",
+    "personal_finance",
+    "epidemiology",
+    "architecture",
+    "computer_graphics",
+    "sports_analytics"
+  ],
+  "tracks": [
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "summary": "From real numbers to sequences and series, capped by a full business model capstone.",
+      "capstone_topic_id": "alg-capstone",
+      "units": [
+        {
+          "id": "alg-u1",
+          "title": "Unit 1 \u2014 Foundations",
+          "topics": [
+            {
+              "id": "alg-u1-t1",
+              "title": "Real numbers and the number line",
+              "difficulty": 1,
+              "prerequisites": [],
+              "domain_affinity": ["personal_finance", "sports_analytics"],
+              "objectives": [
+                "Classify numbers as natural, integer, rational, irrational, real",
+                "Place numbers on a number line and compare them",
+                "Apply density of rationals intuitively"
+              ]
+            },
+            {
+              "id": "alg-u1-t2",
+              "title": "Operations, order of operations, properties",
+              "difficulty": 1,
+              "prerequisites": ["alg-u1-t1"],
+              "domain_affinity": ["game_development", "personal_finance"],
+              "objectives": [
+                "Apply PEMDAS correctly",
+                "Use commutative, associative, distributive properties",
+                "Simplify numeric expressions with mixed operations"
+              ]
+            },
+            {
+              "id": "alg-u1-t3",
+              "title": "Absolute value and distance",
+              "difficulty": 2,
+              "prerequisites": ["alg-u1-t1"],
+              "domain_affinity": ["computer_graphics", "sports_analytics"],
+              "objectives": [
+                "Interpret |x| as distance from zero",
+                "Solve basic absolute value equations and inequalities",
+                "Connect distance between points to |a - b|"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u2",
+          "title": "Unit 2 \u2014 Expressions and Variables",
+          "topics": [
+            {
+              "id": "alg-u2-t1",
+              "title": "Variables and algebraic expressions",
+              "difficulty": 1,
+              "prerequisites": ["alg-u1-t2"],
+              "domain_affinity": ["architecture", "game_development"],
+              "objectives": [
+                "Translate a word problem into an algebraic expression",
+                "Identify constants, coefficients, and terms",
+                "Evaluate expressions for given variable values"
+              ]
+            },
+            {
+              "id": "alg-u2-t2",
+              "title": "Simplifying expressions and combining like terms",
+              "difficulty": 2,
+              "prerequisites": ["alg-u2-t1"],
+              "domain_affinity": ["structural_engineering"],
+              "objectives": [
+                "Combine like terms with care for signs",
+                "Distribute over parentheses",
+                "Recognize equivalent expressions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u3",
+          "title": "Unit 3 \u2014 Linear Equations",
+          "topics": [
+            {
+              "id": "alg-u3-t1",
+              "title": "Solving one-variable linear equations",
+              "difficulty": 2,
+              "prerequisites": ["alg-u2-t2"],
+              "domain_affinity": ["personal_finance", "sports_analytics"],
+              "objectives": [
+                "Isolate the variable using inverse operations",
+                "Handle variables on both sides",
+                "Check solutions by substitution"
+              ]
+            },
+            {
+              "id": "alg-u3-t2",
+              "title": "Word problems and rate/work/mixture applications",
+              "difficulty": 3,
+              "prerequisites": ["alg-u3-t1"],
+              "domain_affinity": ["architecture", "epidemiology"],
+              "objectives": [
+                "Model a word problem with a linear equation",
+                "Use dimensional reasoning on units",
+                "Interpret the solution in the original context"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u4",
+          "title": "Unit 4 \u2014 Linear Inequalities",
+          "topics": [
+            {
+              "id": "alg-u4-t1",
+              "title": "Solving inequalities and interval notation",
+              "difficulty": 2,
+              "prerequisites": ["alg-u3-t1"],
+              "domain_affinity": ["structural_engineering", "personal_finance"],
+              "objectives": [
+                "Solve one-variable linear inequalities",
+                "Flip the sign when multiplying/dividing by a negative",
+                "Express answers in interval and set-builder notation"
+              ]
+            },
+            {
+              "id": "alg-u4-t2",
+              "title": "Compound and absolute value inequalities",
+              "difficulty": 3,
+              "prerequisites": ["alg-u4-t1", "alg-u1-t3"],
+              "domain_affinity": ["structural_engineering"],
+              "objectives": [
+                "Solve \"and\"/\"or\" compound inequalities",
+                "Translate |expr| < k and |expr| > k",
+                "Graph solutions on a number line"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u5",
+          "title": "Unit 5 \u2014 Systems of Equations",
+          "topics": [
+            {
+              "id": "alg-u5-t1",
+              "title": "Solving 2x2 systems by substitution and elimination",
+              "difficulty": 3,
+              "prerequisites": ["alg-u3-t1"],
+              "domain_affinity": ["personal_finance", "architecture"],
+              "objectives": [
+                "Apply substitution to an appropriate equation",
+                "Apply elimination by scaling equations",
+                "Classify systems as consistent, inconsistent, dependent"
+              ]
+            },
+            {
+              "id": "alg-u5-t2",
+              "title": "Systems in applications and graphical interpretation",
+              "difficulty": 3,
+              "prerequisites": ["alg-u5-t1"],
+              "domain_affinity": ["personal_finance", "epidemiology"],
+              "objectives": [
+                "Model mixture/break-even/rate problems as systems",
+                "Read a solution off intersecting graphs",
+                "Verify solutions contextually"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u6",
+          "title": "Unit 6 \u2014 Polynomials",
+          "topics": [
+            {
+              "id": "alg-u6-t1",
+              "title": "Polynomial operations and special products",
+              "difficulty": 3,
+              "prerequisites": ["alg-u2-t2"],
+              "domain_affinity": ["computer_graphics"],
+              "objectives": [
+                "Add, subtract, multiply polynomials",
+                "Recognize (a+b)^2, (a-b)^2, (a+b)(a-b)",
+                "Apply long/synthetic division on simple cases"
+              ]
+            },
+            {
+              "id": "alg-u6-t2",
+              "title": "Factoring techniques",
+              "difficulty": 3,
+              "prerequisites": ["alg-u6-t1"],
+              "domain_affinity": ["structural_engineering", "computer_graphics"],
+              "objectives": [
+                "Factor out common factors and group terms",
+                "Factor trinomials of the form x^2 + bx + c",
+                "Factor differences of squares and simple cubes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u7",
+          "title": "Unit 7 \u2014 Quadratic Equations",
+          "topics": [
+            {
+              "id": "alg-u7-t1",
+              "title": "Solving quadratics by factoring and completing the square",
+              "difficulty": 3,
+              "prerequisites": ["alg-u6-t2"],
+              "domain_affinity": ["sports_analytics", "structural_engineering"],
+              "objectives": [
+                "Solve ax^2 + bx + c = 0 by factoring",
+                "Complete the square to derive vertex form",
+                "Interpret vertex and axis of symmetry"
+              ]
+            },
+            {
+              "id": "alg-u7-t2",
+              "title": "Quadratic formula, discriminant, and applications",
+              "difficulty": 4,
+              "prerequisites": ["alg-u7-t1"],
+              "domain_affinity": ["sports_analytics", "game_development"],
+              "objectives": [
+                "Apply the quadratic formula correctly",
+                "Interpret the discriminant",
+                "Model projectile and area-optimization problems"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u8",
+          "title": "Unit 8 \u2014 Functions",
+          "topics": [
+            {
+              "id": "alg-u8-t1",
+              "title": "Function notation, domain, and range",
+              "difficulty": 3,
+              "prerequisites": ["alg-u2-t1"],
+              "domain_affinity": ["computer_graphics", "game_development"],
+              "objectives": [
+                "Use f(x) notation correctly",
+                "Identify domain and range from graphs and rules",
+                "Evaluate and interpret f(x) at specific inputs"
+              ]
+            },
+            {
+              "id": "alg-u8-t2",
+              "title": "Composition and inverse functions",
+              "difficulty": 4,
+              "prerequisites": ["alg-u8-t1"],
+              "domain_affinity": ["computer_graphics"],
+              "objectives": [
+                "Compute (f \u2218 g)(x) and understand order",
+                "Find inverses for invertible functions",
+                "Verify f(f\u207b\u00b9(x)) = x"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u9",
+          "title": "Unit 9 \u2014 Exponential and Logarithmic Functions",
+          "topics": [
+            {
+              "id": "alg-u9-t1",
+              "title": "Exponential functions and growth/decay",
+              "difficulty": 4,
+              "prerequisites": ["alg-u8-t1"],
+              "domain_affinity": ["personal_finance", "epidemiology"],
+              "objectives": [
+                "Interpret parameters in a \u00b7 b^x",
+                "Model compound interest and population growth",
+                "Compare growth rates across bases"
+              ]
+            },
+            {
+              "id": "alg-u9-t2",
+              "title": "Logarithms, properties, and equations",
+              "difficulty": 4,
+              "prerequisites": ["alg-u9-t1"],
+              "domain_affinity": ["epidemiology", "personal_finance"],
+              "objectives": [
+                "Convert between exponential and logarithmic form",
+                "Apply product/quotient/power laws of logs",
+                "Solve exponential and logarithmic equations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-u10",
+          "title": "Unit 10 \u2014 Sequences and Series",
+          "topics": [
+            {
+              "id": "alg-u10-t1",
+              "title": "Arithmetic and geometric sequences",
+              "difficulty": 3,
+              "prerequisites": ["alg-u2-t1"],
+              "domain_affinity": ["personal_finance"],
+              "objectives": [
+                "Identify common difference and common ratio",
+                "Write explicit and recursive formulas",
+                "Use a_n and S_n formulas"
+              ]
+            },
+            {
+              "id": "alg-u10-t2",
+              "title": "Sigma notation and convergence intuition",
+              "difficulty": 4,
+              "prerequisites": ["alg-u10-t1"],
+              "domain_affinity": ["personal_finance", "computer_graphics"],
+              "objectives": [
+                "Read and write \u03a3 expressions",
+                "Evaluate finite geometric sums",
+                "Recognize when an infinite geometric series converges"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alg-capstone-unit",
+          "title": "Capstone \u2014 Launching a Product",
+          "topics": [
+            {
+              "id": "alg-capstone",
+              "title": "Full business model capstone",
+              "difficulty": 5,
+              "prerequisites": [
+                "alg-u5-t2",
+                "alg-u6-t2",
+                "alg-u7-t2",
+                "alg-u8-t2",
+                "alg-u9-t2",
+                "alg-u10-t2"
+              ],
+              "domain_affinity": ["personal_finance"],
+              "objectives": [
+                "Model supply and demand with a system of equations",
+                "Build polynomial cost curves",
+                "Project market growth with exponential functions",
+                "Design an installment plan using sequences and series",
+                "Produce a final price and production recommendation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "title": "Calculus",
+      "summary": "From precalculus bridge through integration, capped by a structural optimization capstone.",
+      "capstone_topic_id": "calc-capstone",
+      "units": [
+        {
+          "id": "calc-u1",
+          "title": "Unit 1 \u2014 Precalculus Bridge",
+          "topics": [
+            {
+              "id": "calc-u1-t1",
+              "title": "Functions, transformations, and graph behavior",
+              "difficulty": 2,
+              "prerequisites": ["alg-u8-t2"],
+              "domain_affinity": ["computer_graphics", "game_development"],
+              "objectives": [
+                "Apply shifts, stretches, reflections to graphs",
+                "Identify end behavior and symmetry",
+                "Relate algebraic form to graph features"
+              ]
+            },
+            {
+              "id": "calc-u1-t2",
+              "title": "Trigonometry essentials: unit circle and identities",
+              "difficulty": 3,
+              "prerequisites": ["calc-u1-t1"],
+              "domain_affinity": ["sports_analytics", "game_development"],
+              "objectives": [
+                "Evaluate trig functions on the unit circle",
+                "Use Pythagorean and angle-sum identities",
+                "Sketch sine, cosine, tangent with transformations"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u2",
+          "title": "Unit 2 \u2014 Limits",
+          "topics": [
+            {
+              "id": "calc-u2-t1",
+              "title": "Intuitive limits and limit laws",
+              "difficulty": 3,
+              "prerequisites": ["calc-u1-t1"],
+              "domain_affinity": ["epidemiology", "computer_graphics"],
+              "objectives": [
+                "Estimate limits from tables and graphs",
+                "Apply sum, product, quotient limit laws",
+                "Recognize indeterminate forms"
+              ]
+            },
+            {
+              "id": "calc-u2-t2",
+              "title": "One-sided limits, continuity, infinite limits",
+              "difficulty": 4,
+              "prerequisites": ["calc-u2-t1"],
+              "domain_affinity": ["structural_engineering"],
+              "objectives": [
+                "Compute left/right limits and analyze discontinuities",
+                "Apply the formal \u03b5-\u03b4 idea in simple cases",
+                "Identify asymptotes from limits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u3",
+          "title": "Unit 3 \u2014 Introduction to Derivatives",
+          "topics": [
+            {
+              "id": "calc-u3-t1",
+              "title": "Derivative as a limit and tangent lines",
+              "difficulty": 4,
+              "prerequisites": ["calc-u2-t1"],
+              "domain_affinity": ["game_development", "sports_analytics"],
+              "objectives": [
+                "Compute f'(x) from the limit definition",
+                "Interpret the derivative as instantaneous rate of change",
+                "Write equations of tangent lines"
+              ]
+            },
+            {
+              "id": "calc-u3-t2",
+              "title": "Power, sum, and constant-multiple rules",
+              "difficulty": 3,
+              "prerequisites": ["calc-u3-t1"],
+              "domain_affinity": ["structural_engineering"],
+              "objectives": [
+                "Apply the power rule fluently",
+                "Differentiate sums and scalar multiples",
+                "Use derivative to find slopes quickly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u4",
+          "title": "Unit 4 \u2014 Differentiation Rules",
+          "topics": [
+            {
+              "id": "calc-u4-t1",
+              "title": "Product, quotient, and chain rules",
+              "difficulty": 4,
+              "prerequisites": ["calc-u3-t2"],
+              "domain_affinity": ["computer_graphics", "structural_engineering"],
+              "objectives": [
+                "Apply product and quotient rules",
+                "Apply the chain rule in nested compositions",
+                "Combine rules on complex expressions"
+              ]
+            },
+            {
+              "id": "calc-u4-t2",
+              "title": "Implicit differentiation",
+              "difficulty": 5,
+              "prerequisites": ["calc-u4-t1"],
+              "domain_affinity": ["architecture"],
+              "objectives": [
+                "Differentiate implicitly with respect to x",
+                "Solve for dy/dx",
+                "Find slopes on curves defined implicitly"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u5",
+          "title": "Unit 5 \u2014 Applications of Derivatives",
+          "topics": [
+            {
+              "id": "calc-u5-t1",
+              "title": "Related rates",
+              "difficulty": 4,
+              "prerequisites": ["calc-u4-t1"],
+              "domain_affinity": ["structural_engineering", "architecture"],
+              "objectives": [
+                "Set up related rate equations from a scenario",
+                "Differentiate with respect to time",
+                "Interpret the rate in context"
+              ]
+            },
+            {
+              "id": "calc-u5-t2",
+              "title": "Optimization and curve sketching",
+              "difficulty": 5,
+              "prerequisites": ["calc-u4-t1"],
+              "domain_affinity": ["structural_engineering", "architecture"],
+              "objectives": [
+                "Find absolute and local extrema",
+                "Analyze concavity and inflection points",
+                "Sketch curves using calculus tools"
+              ]
+            },
+            {
+              "id": "calc-u5-t3",
+              "title": "L'Hopital's rule",
+              "difficulty": 4,
+              "prerequisites": ["calc-u2-t2", "calc-u4-t1"],
+              "domain_affinity": ["epidemiology"],
+              "objectives": [
+                "Recognize 0/0 and \u221e/\u221e indeterminate forms",
+                "Apply L'Hopital repeatedly when needed",
+                "Handle transformations to 0/0 or \u221e/\u221e"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u6",
+          "title": "Unit 6 \u2014 Antiderivatives and Indefinite Integrals",
+          "topics": [
+            {
+              "id": "calc-u6-t1",
+              "title": "Antiderivatives and basic integration rules",
+              "difficulty": 3,
+              "prerequisites": ["calc-u3-t2"],
+              "domain_affinity": ["structural_engineering"],
+              "objectives": [
+                "Reverse the power rule",
+                "Integrate polynomials and common functions",
+                "Use +C correctly"
+              ]
+            },
+            {
+              "id": "calc-u6-t2",
+              "title": "u-substitution",
+              "difficulty": 4,
+              "prerequisites": ["calc-u6-t1", "calc-u4-t1"],
+              "domain_affinity": ["game_development"],
+              "objectives": [
+                "Choose a substitution that simplifies the integrand",
+                "Handle du and bounds correctly",
+                "Back-substitute to express the result in x"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u7",
+          "title": "Unit 7 \u2014 Definite Integrals",
+          "topics": [
+            {
+              "id": "calc-u7-t1",
+              "title": "Riemann sums and the definite integral",
+              "difficulty": 4,
+              "prerequisites": ["calc-u6-t1"],
+              "domain_affinity": ["structural_engineering", "epidemiology"],
+              "objectives": [
+                "Approximate area using left/right/midpoint sums",
+                "Take the limit as n \u2192 \u221e",
+                "Interpret integrals as accumulated change"
+              ]
+            },
+            {
+              "id": "calc-u7-t2",
+              "title": "Fundamental Theorem of Calculus",
+              "difficulty": 4,
+              "prerequisites": ["calc-u7-t1"],
+              "domain_affinity": ["structural_engineering"],
+              "objectives": [
+                "Apply FTC parts 1 and 2",
+                "Evaluate definite integrals with antiderivatives",
+                "Differentiate integrals with variable bounds"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u8",
+          "title": "Unit 8 \u2014 Applications of Integration",
+          "topics": [
+            {
+              "id": "calc-u8-t1",
+              "title": "Area between curves and average value",
+              "difficulty": 4,
+              "prerequisites": ["calc-u7-t2"],
+              "domain_affinity": ["architecture", "sports_analytics"],
+              "objectives": [
+                "Set up integrals for area between curves",
+                "Compute average value of a function",
+                "Interpret results in context"
+              ]
+            },
+            {
+              "id": "calc-u8-t2",
+              "title": "Volumes of revolution (disk/washer/shell)",
+              "difficulty": 5,
+              "prerequisites": ["calc-u8-t1"],
+              "domain_affinity": ["architecture", "structural_engineering"],
+              "objectives": [
+                "Set up disk and washer integrals",
+                "Apply the shell method when appropriate",
+                "Compare methods on the same solid"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-u9",
+          "title": "Unit 9 \u2014 Transcendental Functions",
+          "topics": [
+            {
+              "id": "calc-u9-t1",
+              "title": "Derivatives and integrals of exponentials and logs",
+              "difficulty": 4,
+              "prerequisites": ["calc-u4-t1", "alg-u9-t2"],
+              "domain_affinity": ["personal_finance", "epidemiology"],
+              "objectives": [
+                "Differentiate e^x, a^x, ln x, log_a x",
+                "Integrate 1/x and e^x",
+                "Solve exponential-decay/growth problems"
+              ]
+            },
+            {
+              "id": "calc-u9-t2",
+              "title": "Derivatives and integrals of trig functions",
+              "difficulty": 4,
+              "prerequisites": ["calc-u4-t1", "calc-u1-t2"],
+              "domain_affinity": ["game_development", "sports_analytics"],
+              "objectives": [
+                "Differentiate and integrate sin, cos, tan and friends",
+                "Combine with chain rule and u-substitution",
+                "Apply to oscillatory real-world problems"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calc-capstone-unit",
+          "title": "Capstone \u2014 Reservoir Design",
+          "topics": [
+            {
+              "id": "calc-capstone",
+              "title": "Structural optimization capstone",
+              "difficulty": 5,
+              "prerequisites": [
+                "calc-u2-t2",
+                "calc-u5-t1",
+                "calc-u5-t2",
+                "calc-u7-t2",
+                "calc-u8-t2",
+                "calc-u9-t2"
+              ],
+              "domain_affinity": ["structural_engineering", "architecture"],
+              "objectives": [
+                "Analyze boundary flow with limits",
+                "Optimize cross-section using derivatives",
+                "Model variable inflow with related rates",
+                "Compute total volume and material with definite integrals",
+                "Produce a design recommendation with cost estimate"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
